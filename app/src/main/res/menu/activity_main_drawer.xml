@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sasaran"
+            android:icon="@mipmap/ic_account_balance_black_18dp"
+            android:title="Sektor Investasi" />
+        <item
+            android:id="@+id/peraturan"
+            android:icon="@mipmap/ic_description_black_18dp"
+            android:title="Peraturan" />
+        <item
+            android:id="@+id/profil"
+            android:icon="@mipmap/ic_assignment_black_18dp"
+            android:title="Profil" />
+        <item
+            android:id="@+id/kinerja"
+            android:icon="@mipmap/ic_view_module_black_18dp"
+            android:title="Kinerja" />
+        <item
+            android:id="@+id/faq"
+            android:icon="@mipmap/ic_help_outline_black_18dp"
+            android:title="FAQ" />
+    </group>
+
+    <item android:title="Tanya Jawab"
+        android:id="@+id/chat">
+        <menu>
+            <item
+                android:id="@+id/wa"
+                android:icon="@mipmap/ic_question_answer_black_18dp"
+                android:title="WhatsApp" />
+            <item
+                android:id="@+id/tg"
+                android:icon="@mipmap/ic_question_answer_black_18dp"
+                android:title="Telegram" />
+        </menu>
+    </item>
+
+</menu>
